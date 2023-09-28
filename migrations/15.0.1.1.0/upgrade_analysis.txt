@@ -1,0 +1,10 @@
+---Models in module 'partner_firstname'---
+---Fields in module 'partner_firstname'---
+partner_firstname / res.partner              / firstname (char)              : NEW
+partner_firstname / res.partner              / lastname (char)               : NEW
+---XML records in module 'partner_firstname'---
+NEW ir.model.constraint: partner_firstname.constraint_res_partner_check_name
+NEW ir.ui.view: partner_firstname.res_config_settings_view_form
+NEW ir.ui.view: partner_firstname.view_partner_form
+NEW ir.ui.view: partner_firstname.view_partner_simple_form
+NEW ir.ui.view: partner_firstname.view_users_form
